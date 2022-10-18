@@ -1,8 +1,8 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import CustomButton from "../../components/CustomButton";
-import { connectXWallet, connectZelcore } from "../redux/kadenaSlice";
-import { hideModal } from "../redux/modalSlice";
+import { connectXWallet, connectZelcore } from "../store/kadenaSlice";
+import { hideModal } from "../store/modalSlice";
 
 function ConnectWalletModal() {
   const shouldShow = useSelector(state => state.connectWalletModal.showing);

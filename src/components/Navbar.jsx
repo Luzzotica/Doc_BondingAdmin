@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { disconnectWallet } from '../connect-wallet/redux/kadenaSlice';
-import { showModal } from '../connect-wallet/redux/modalSlice';
+import { disconnectWallet } from '../connect-wallet/store/kadenaSlice';
+import { showModal } from '../connect-wallet/store/modalSlice';
 import reduceToken from '../connect-wallet/utils/reduceToken';
 import CustomButton from './CustomButton'
 
